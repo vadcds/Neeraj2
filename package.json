@@ -1,0 +1,20 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This is a node server for our ichat applaction",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Neeraj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-server": "^14.1.1",
+    "io": "^1.5.0",
+    "nodemon": "^3.0.3",
+    "socket.io": "^4.7.4",
+    "socket.io-client": "^4.7.4"
+  },
+  "keywords": []
+}

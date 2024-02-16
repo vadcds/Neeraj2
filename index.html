@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+     <!-- https://cdn.socket.io/socket.io-1.2.0.js  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <style>
+        body{
+            background-image: url(n.png);
+
+        }
+        #messageInp{
+            background-color: rgb(56, 56, 56);
+            color: rgb(255, 255, 255);
+
+        }
+        .btn{
+            background-color: green;
+        }
+        .border{
+            border-color: rgb(255, 255, 255);
+            
+        }
+         
+        
+    </style>
+    <nav>
+        <img class="logo" scr="#" alt="Neeraj Dhiman">
+    </nav>
+    <div class="border">
+        <div class="container">
+            <!-- <div class="message right">Hell vansh</div>
+            <div class="message left">I am fine bro</div> -->
+        </div>
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+    
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script src="./js/client.js"></script>
+    
+</body>
+</html>
